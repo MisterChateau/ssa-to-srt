@@ -1,3 +1,4 @@
+Deployed [here](https://dt5a3cxb6o7xy.cloudfront.net)
 # Prerequisites
 
 Install aws cli

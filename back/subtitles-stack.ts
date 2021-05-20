@@ -30,7 +30,7 @@ export class SubtitlesToolsAppStack extends Stack {
 
 		new SPADeploy(this, 'SubtitleFrontApp').createSiteWithCloudfront({
 			indexDoc: 'index.html',
-			websiteFolder: join(__dirname, '..', 'front'),
+			websiteFolder: join(__dirname, '..', 'front', 'dist'),
 		});
 	}
 }
